@@ -30,29 +30,15 @@
 
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link " href="">Search Jobs</a>
+                    <a class="nav-link " href="https://www.linkedin.com/in/shmuel-cohen-a2276765/">Linkedin</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link " href="">Listings</a>
+                    <a class="nav-link " href="https://github.com/Shmuco">Github</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link " href="">Forum</a>
+                    <a class="nav-link " href="mailto:info@example.com">Get in touch</a>
                 </li>
-
-
-
-
-                <li
-                    class="nav-item dropdown {% if url_name == 'profile_update' %}active{% endif %}{% if url_name == 'my_deck' %}active{% endif %}">
-                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-user-circle fa-2x"></i>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{% url 'logout' %}">Logout</a>
-                        <a class="dropdown-item" href="{% url 'profile_update' user.profile.id %}">Profile</a>
-                    </div>
-                </li>
+                
 
 
 
@@ -62,47 +48,51 @@
     <div class="p-5 mb-4 bg-light rounded-3">
         <div class="container-fluid py-5">
             <h1 class="display-5 fw-bold">Shmuel Cohen</h1>
-            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in
-                previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to
-                your liking.</p>
-            <button class="btn btn-primary btn-lg" type="button">Example button</button>
+            <p class="col-md-8 fs-4">Full Stack Web Developer.</p>
+                
+
+            </div>
+            <img src="images/bootstrap.png" class="logo" alt="...">
+            <img src="images/css.png" class="logo" alt="...">
+            <img src="images/html.png" class="logo" alt="...">
+            <img src="images/python.png" class="logo" alt="...">
+            <img src="images/django.png" class="logo" alt="...">
         </div>
-    </div>
-    <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="col-sm-6 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+    
+                <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <img src="/images/pokemon.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pokemon Trading Card Game</h5>
+                                <p class="card-text">his is a projet that i did myslef following a spec sheet. Using this
+                                    project i
+                                    got to devlop my understanding of django.</p>
+                                <a href="http://shmuco2.pythonanywhere.com" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <img src="/images/snake.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Snake Portfolio</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text">My first hacakthon project where i worked with a fellow student. The
+                            concept was to build a portfolio with a twist</p>
                         <a href="/snake/index.html" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="card col-sm-6 col-md-3 " style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>
 
+        <br>
+        <nav class="navbar  navbar-light bg-light justify-content-center">
+            <span class="navbar-text footer">
+                <i class="far fa-copyright"></i> Shmuco
+            </span>
+        </nav>
     </div>
-
-<br>
-    <nav class="navbar  navbar-light bg-light justify-content-center">
-        <span class="navbar-text footer">
-            <i class="far fa-copyright"></i> Shmuco
-        </span>
-    </nav>
 
 
 
